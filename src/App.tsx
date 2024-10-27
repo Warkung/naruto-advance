@@ -15,7 +15,7 @@ function App() {
   ]);
 
   return (
-    <div>
+    <div className="bg-[url('/images/wp8470860-naruto-symbols-wallpapers.jpg')] min-h-screen bg-cover">
       <RouterProvider router={router} />
     </div>
   );

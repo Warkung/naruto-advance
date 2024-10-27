@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { characterService } from "../service/characterService";
+import Navbar from "../Components/Navbar";
 
 function HomePage() {
   const callData = async () => {
@@ -10,7 +11,13 @@ function HomePage() {
   useEffect(() => {
     callData();
   }, []);
-  return <div>HomePage</div>;
+
+  return (
+    <div>
+      
+      <Navbar />
+    </div>
+  );
 }
 
 export default HomePage;
