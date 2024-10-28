@@ -4,12 +4,12 @@ import { IAllCharacter } from "./Interface/AllCharacter";
 import { ICharacterByID } from "./Interface/CharacterByID";
 
 export const characterService = {
-  allCharactetrs: async () => {
+  allCharacters: async () => {
     try {
       const resonse: IAllCharacter = await axios.get(`${BaseURL}/characters`);
       return resonse;
     } catch (error) {
-      throw new Error("");
+      throw new Error("error");
       ;
     }
   },

@@ -1,6 +1,10 @@
 import { useEffect } from "react";
 import { characterService } from "../service/characterService";
+<<<<<<< Updated upstream
 import Navbar from "../Components/Navbar";
+=======
+import SearchForm from "../Components/SearchForm";
+>>>>>>> Stashed changes
 
 function HomePage() {
   const callData = async () => {
@@ -11,6 +15,7 @@ function HomePage() {
   useEffect(() => {
     callData();
   }, []);
+<<<<<<< Updated upstream
 
   return (
     <div>
@@ -18,6 +23,14 @@ function HomePage() {
       <Navbar />
     </div>
   );
+=======
+  return <div>
+    <div>logo</div>
+    <div className="search">
+      <SearchForm />
+    </div>
+  </div>;
+>>>>>>> Stashed changes
 }
 
 export default HomePage;

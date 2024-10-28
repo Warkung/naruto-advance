@@ -1,7 +1,15 @@
 
 function SearchForm() {
   return (
-    <div>SearchForm</div>
+    <div>
+      <form action="">
+
+        <input type="text" />
+        <button>
+          submit
+        </button>
+      </form>
+    </div>
   )
 }
 

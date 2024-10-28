@@ -15,7 +15,11 @@ function App() {
   ]);
 
   return (
+<<<<<<< Updated upstream
     <div className="bg-[url('/images/wp8470860-naruto-symbols-wallpapers.jpg')] min-h-screen bg-cover">
+=======
+    <div className=" bg-gray-600 min-h-screen">
+>>>>>>> Stashed changes
       <RouterProvider router={router} />
     </div>
   );
